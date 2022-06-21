@@ -1,0 +1,30 @@
+
+{
+    "canisters": {
+      "unity_webgl_template_assets": {
+        "frontend": {
+          "entrypoint": "FrontEnd/index.html"
+        },
+        "source": [
+            "FrontEnd",
+          "Build",
+          "StreamingAssets"
+        ],
+        "type": "assets"
+      }
+    },
+    "defaults": {
+      "build": {
+        "args": "",
+        "packtool": ""
+      }
+    },
+    "dfx": "0.10.1",
+    "networks": {
+      "local": {
+        "bind": "127.0.0.1:8000",
+        "type": "ephemeral"
+      }
+    },
+    "version": 1
+  }
